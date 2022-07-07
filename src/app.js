@@ -1,1 +1,4 @@
-alert('This is a Arturos page');
+// alert('This is a Arturos page');
+function test(){
+    
+}
