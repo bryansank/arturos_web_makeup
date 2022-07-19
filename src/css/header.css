@@ -1,0 +1,21 @@
+/* Mobile Firts */
+
+#headerMainTop{
+    background-color: #fe5000;
+    padding: 1rem;
+    text-align: center;
+    color: azure;
+    border-bottom: 2px solid #ffcc6f;
+    letter-spacing: 3px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row nowrap;
+    /* Para los titulos */
+    /* height: 2.5rem; */
+}
+
+#headerMainTop .container_title_page{
+    flex-grow: 2;
+}

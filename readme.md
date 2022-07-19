@@ -5,7 +5,9 @@
 # Arturos Web Page.
 
 * Spanish 
-Este sera el sitio web oficial de Arturos. Podras encontrar aca, el makeup del sitio el cual estara construido con tecnologias basicas para un primer vistazo y aprobacion del mismo.
+Este sera el sitio web "oficial" de Arturos donde podras consultar productos, filtrarlos por sus caracteristicas. Podras encontrar aca, el makeup del sitio el cual estara construido con tecnologias basicas para un primer vistazo y aprobacion del mismo.
+
+Por ahora el roadmap, 
 
 ## Let's go. 🚀
 

@@ -1,0 +1,24 @@
+
+.btn_flotante{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    /* line-height: 55px; */
+    bottom: 10px;
+    right: 20px;
+    background-color: greenyellow;
+    z-index: 1;
+    border-radius: 2rem;
+
+    transition: background-color 0.3s ease;
+}
+
+.btn_flotante a{
+    color: black;
+    text-decoration: none;
+}
+
+.btn_flotante:hover{
+    background-color: rgb(0, 255, 170);
+    cursor: pointer;
+}

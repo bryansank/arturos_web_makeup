@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arturos Web App</title>
-    <link rel="stylesheet" href="./src/style.css" />
+    
     <link rel="shortcut icon" href="./assets/arturo.ico" type="image/x-icon" />
 
     <!-- fonts google -->
@@ -16,72 +16,129 @@
       rel="stylesheet"
     />
 
+    <!-- Global Style -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Global Style -->
+
+    <!-- Header Style -->
+    <link rel="stylesheet" href="./src/css/header.css" />
+    <!-- Header Style -->
+
     <!-- Platos principales -->
-    <link rel="stylesheet" href="./src/main_products/main_products.css" />
+    <link rel="stylesheet" href="./src/css/main_products.css" />
     <!-- Platos principales -->
+
+    <!-- Footer Style -->
+    <link rel="stylesheet" href="./src/css/footer.css" />
+    <!-- Footer Style -->
   </head>
 
   <body>
-    <h1>Arturos Web</h1>
-    <!-- Logo ? -->
-    <!-- Cambiar el lenguaje ?  -->
-    <!-- Buscador? -->
-   
+
+    <header id="headerMainTop">
+      <div class="container_title_page">
+        <h1>Arturo's Web</h1>
+      </div>
+    </header>
+    
     <section class="container_content">
-        <div class="card">
-            <figure>
-              <img
-                class="product_img_card"
-                src="./assets/productos/gigante.png"
-                alt="producto 1"
-              />
-            </figure>
-            <div class="elements_in_card_withoutImg">
 
-                <h2 class="title_product_card">Super Combo</h2>
-
-                <div class="container_price_typeExchange">
-                    <p class="price_item">Precio de: <span class="price_item_card">20$</span></p>
-
-                    <div class="options_exchange">
-                        <select name="price_selector_name" id="price_selector">
-                            <option value="dolares">$</option>
-                            <option value="bolivares">Bs</option>
-                        </select>
-                    </div>
-                </div>
-
-                <span class="items_product">Trae: 2 piezas de pollo, caraotas, papas y 1 refresco.</span>
+      <article class="card">
         
-                <!-- Contador ?  -->
-                <!-- Añadir y Eliminar ? -->
+        <figure>
+          <img
+            class="product_img_card"
+            src="./assets/productos/gigante.png"
+            alt="producto 1"
+            width="250"
+            height="250"
+          />
+        </figure>
 
-                <style>
-                    .actions_buttons{
-                        margin: 10px 0;
-                        display: flex;
-                    }
-                </style>
-                <div class="actions_buttons">
-                    <button>+</button>
-                    <span>1</span>
-                    <button>-</button>
+        <div class="elements_in_card_withoutImg">
+
+            <h2 class="title_product_card">Super Combo</h2>
+
+            <div class="container_price_typeExchange">
+                <p class="price_item">Precio de: <span class="price_item_card">20$</span></p>
+
+                <div class="options_exchange">
+                    <select name="price_selector_name" id="price_selector">
+                        <option value="dolares">$</option>
+                        <option value="bolivares">Bs</option>
+                    </select>
                 </div>
-
-                <button class="button" id="btn_add_cart" onclick="test()">
-                    Agregar al carrito
-                </button>
-
             </div>
+
+            <span class="items_product">Trae: 2 piezas de pollo, caraotas, papas y 1 refresco, 2 piezas de pollo, caraotas, papas y 1 refresco, 2 piezas de pollo, caraotas, papas y 1 refresco.</span>
+    
+            <div class="actions_buttons">
+              <button type="button" class="btn_card_product">-</button>
+              <span class="counter"> 1 </span>
+              <button type="button" class="btn_card_product">+</button>
+            </div>
+
+            <button class="button buttonProduct" onclick="test()">
+                Agregar al carrito
+            </button>
+
         </div>
+
+      </article>
+
     </section>
-    <section class="container_content">Promociones</section>
-    <!-- Buscador de productos? -->
-    <section class="container_content">Productos</section>
-    <!-- Buscador de Restaurantes? -->
-    <section class="container_content">Ubicaciones de Restaurantes</section>
-    <!-- ? Localizar el mas cercano? -->
+    
+    <footer id="footerMainPage">
+
+      <section class="sect_pages">
+        <p>Inicio</p>
+        <p>About Me</p>
+      </section>
+
+      <section class="sect_text">
+        <p>Follow me for more information about me and you will see my projects in progress.</p>
+      </section>
+
+      <section class="sect_social_media_icons">
+        <p>Follow Me</p>
+        <article class="container_social_media_icons">
+          <figure>
+            <a href="https://www.instagram.com/bryansank/">
+              <img src="./assets/icons/Instagram.svg" alt="Instagram" sizes="" srcset="" width="50px" height="50px"/>
+            </a>
+          </figure>
+
+          <figure>
+            <a href="https://www.linkedin.com/in/bryansank/">
+              <img src="./assets/icons/linkedin.svg" alt="Linkedin" sizes="" srcset="" width="50px" height="50px"/>
+            </a>
+          </figure>
+
+          <figure>
+            <a href="https://twitter.com/bryansank">
+              <img src="./assets/icons/Twitter.svg" alt="Twitter" sizes="" srcset="" width="50px" height="50px" />
+            </a>
+          </figure>
+        </article>
+      </section>
+
+      <section class="sect_love_copyright">
+        
+        <p>Hecho con 💚</p>
+        <figure>
+          <img src="./assets/firma.png" alt="firma" />
+        </figure>
+        <p>© 2022 Copyright: Bryan Key</p>
+      </section>
+
+    </footer>
+
   </body>
 
-  <script type="text/javascript" src="./src/app.js"></script>
+  <!-- Esto lo voy a quitar -->
+  <!-- <a target="_blank" href="./src/pages/blogCreador.html">Visita mi pagina web</a> -->
+  <!-- <a target="_blank" href="https://bryansank.github.io/">Visita mi pagina web</a> -->
+
+  <!-- <script type="text/javascript" src="./src/app.js"></script> -->
+
 </html>
