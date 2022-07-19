@@ -17,7 +17,7 @@
 }
 
 .card:hover{
-    cursor: grab;
+    cursor: pointer;
     box-shadow: 0rem 0.1rem 0.1rem #ff6809;
     transition: box-shadow 0.7s ease;
 }

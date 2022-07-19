@@ -53,8 +53,16 @@
     font-weight: bold;
   }
 
+  #footerMainPage .sect_pages p a{
+    color: none;
+    text-decoration: none;
+    color: #6b6b6b;
+    font-weight: bold;
+  }
+
   #footerMainPage .sect_pages p:hover{
     color: #ff7b00;
+    cursor: pointer;
   }
 
   #footerMainPage .sect_love_copyright{
